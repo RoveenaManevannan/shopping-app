@@ -1,0 +1,142 @@
+.logContainer{
+  background-color: #fff8dc;
+  height:1400px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.logContent{
+padding-top:5%;
+}
+.logTitle{
+  font-size: 5rem;
+  text-align: center;
+}
+.Subtitle{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 50PX;
+}
+.Form{
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Form label{
+  margin-left:10px;
+}
+.Email{
+    font-size:2rem;
+  margin-left: 30px;
+  height: 50px;
+  width: 500px;
+}
+.Password {
+    font-size:2.5rem;
+  margin-left: 40px;
+  height: 50px;
+  width: 500px;
+}
+.loginPopup{
+  font-size: 2.5rem;
+  text-align: center;
+}
+.loginPopup a{
+color:black;
+}
+.Links{
+  text-align: center;
+}
+.linkstyle {
+  text-decoration: underline;
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.buttonstyle {
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: peachpuff;
+  border: white;
+  font-size:1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-bottom: 50PX;
+};
+@media screen and (max-width: 1023px) {
+    .logTitle{
+        font-size:30px;
+    }
+    .Subtitle{
+        font-size:20px;
+    }
+    .Form{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .Email{
+        font-size:15px;
+        height: 20px;
+        width:200px;
+        
+    }
+    .Password{
+        font-size:15px;
+        height: 20px;
+        width:200px;
+        
+    }
+    .buttonstyle{
+        width: 100px;
+        height: 40px;
+        margin:20px 30%;
+    }
+    .linkstyle {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+
+}
+@media screen and (max-width: 767px) {
+    .logTitle{
+        font-size:30px;
+    }
+    .Subtitle{
+        font-size:20px;
+    }
+    .Form{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .Email{
+        font-size:15px;
+        height: 20px;
+        width:200px;
+        
+    }
+    .Password{
+        font-size:15px;
+        height: 20px;
+        width:200px;
+        
+    }
+    .buttonstyle{
+        width: 100px;
+        height: 40px;
+        background-color: peachpuff;
+        border: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin:20px 50%;
+    }
+    .linkstyle {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+}

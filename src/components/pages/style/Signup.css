@@ -1,0 +1,167 @@
+.signupContainer
+{
+    background-color: #fff8dc;
+    height:1400px;
+    margin-top: 30px;
+   
+}
+.headingContainer{
+    padding-top: 80px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-size: 5rem;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.signUpForm{
+    padding-top: 30px;
+    width:100%;
+    text-align: center;
+}
+.labelfield{
+    font-size:3.5rem;
+    font-weight: bold;
+    margin-right: 50px;  
+}
+.inputfield{
+    height:50px;
+    width:500px;
+    margin-bottom: 20px;
+    font-size:2.5rem;
+}
+#titlefield{
+    margin-right: 105px;
+    width:70px;
+}
+#emailfield
+{
+    margin-right: 170px;
+}
+#passfield{
+    margin-right: 70px;
+}
+
+
+.register{
+    margin-left:160px;
+    height:90px;
+    width:300px;
+    background-color: #ffdab9;
+    border: none;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor:pointer;
+}
+.signupPopup{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .signupPopup a{
+  color:black;
+  }
+@media screen and (max-width: 1023px) {
+    .headingContainer{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+        font-size: 4rem;
+    }
+    h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .signUpForm{
+        padding-top: 40px;
+        width:100%;
+        text-align: center;
+    }
+    .labelfield{
+        font-size:2.5rem;
+        font-weight: bold;
+        margin-right: 50px;  
+    }
+    .inputfield{
+        height:30px;
+        width:200px;
+        margin-bottom: 20px;
+        font-size:2rem;
+    }
+    #titlefield{
+        margin-right: 105px;
+        width:70px;
+    }
+    #emailfield
+    {
+        margin-right: 105px;
+    }
+    #passfield{
+        margin-right: 60px;
+    }
+  
+    .register{
+        margin-left:70px;
+        height:70px;
+        width:200px;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 767px) {
+.headingContainer{
+    padding-top: 40px;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.signUpForm{
+    padding-top: 40px;
+    width:100%;
+    text-align: center;
+}
+.labelfield{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-right: 50px;  
+}
+.inputfield{
+    height:30px;
+    width:200px;
+    margin-bottom: 20px;
+    font-size:2.5rem;
+}
+#titlefield{
+    margin-right: 105px;
+    width:70px;
+}
+#emailfield
+{
+    margin-right: 105px;
+}
+#passfield{
+    margin-right: 60px;
+}
+
+.register{
+    margin-left:70px;
+    height:70px;
+    width:200px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+}

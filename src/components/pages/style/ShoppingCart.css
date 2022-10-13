@@ -1,0 +1,114 @@
+.mainDiv{
+    background-color:#fff8dc;
+    margin-top: 30px;
+    min-height: 1400px;
+}
+.prodDiv{
+    padding-top:50px;
+    display:flex;
+}
+.imgdiv{
+    margin-left:10%;
+    width:40%;
+}
+.infodiv{
+    margin-left: -10%;
+    font-size: 2rem;
+}
+.msg{
+    padding:20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.calculateDiv{
+    text-align: center;
+    margin:50px;
+    padding: 10px;
+    background-color: rgb(184, 252, 67);
+    border-radius:0.5%;
+}
+.calculateDiv h1{
+    text-align: left;
+    margin-left:20%;
+    margin-bottom:20px;
+    font-size:3rem;
+}
+.calculateDiv span{
+    float: right;
+    margin-right:20%;
+}
+.orderBtn{
+    background-color: peachpuff;
+    border:white;
+    width:20%;
+    height:70px;
+    font-size: 2rem;
+    cursor:pointer;
+    font-weight:bold;
+}
+.popupDiv{
+    margin-top:30px;
+    text-align: center;
+    color: red;
+    background-color: rgb(255, 255, 123);
+    border:black;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom:10px;
+}
+.popupDiv button{
+    background:peachpuff;
+    border:white;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    height:60px;
+    cursor: Pointer;
+}
+@media screen and (max-width: 1023px) {
+    .infodiv{
+        margin-left: 10%;
+        font-size: 1.5rem;
+    }
+    
+    .calculateDiv{
+        margin:20px;
+    }
+    .calculateDiv h1{
+        font-size:1.5rem;
+    }
+    .calculateDiv span{
+        float: right;
+        margin-right:20%;
+    }
+    .orderBtn{
+        margin-left: 280px;
+        font-size: 1.5rem;
+        width:150px;
+    } 
+
+}
+@media screen and (max-width: 767px) {
+    .prodDiv{
+        display:block;
+    }
+    .infodiv{
+        margin-left: 10%;
+        font-size: 1.5rem;
+    }
+    
+    .calculateDiv{
+        margin:20px;
+    }
+    .calculateDiv h1{
+        font-size:1.5rem;
+    }
+    .calculateDiv span{
+        float: right;
+        margin-right:20%;
+    }
+    .orderBtn{
+        margin-left: 150px;
+        font-size: 1.5rem;
+    }
+}

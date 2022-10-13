@@ -1,0 +1,97 @@
+
+.mainContainer{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.CategoriesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Content{
+width:50%;
+position: relative;
+margin: 10px 10px;
+
+}
+.Image{
+width:100%;
+height:100%;
+}
+
+.Info{
+position: absolute;
+top: 40%;
+left: 30%;
+width:100%;
+height:100%;
+flex-direction:column;
+}
+.TitleHome{
+font-size: 2.5rem;
+color: white;
+margin-left:40%;
+}
+.Button{
+margin-left:40%;
+width:20%;
+height:10%;
+border:black;
+background-color:white;
+color:gray;
+cursor:pointer;
+font-size: 1.5rem;
+font-weight:600;
+}
+@media screen and (max-width: 1539px) {
+    
+    .mainContainer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+    .Content{
+        width:90%;
+    }
+    .TitleHome{
+        font-size: 1.3rem;
+        color: white;
+        }
+    .Button{
+            font-size:.7rem;
+            font-weight:600;
+            }
+
+
+}
+@media screen and (max-width: 767px) {
+    .mainContainer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+    .CategoriesContainer{
+        display:block;
+        margin-left:10%;
+    }
+    .Content{
+        width:90%;
+    }
+    .TitleHome{
+        font-size: 1.3rem;
+        color: white;
+        }
+    .Button{
+            font-size:.7rem;
+            font-weight:600;
+            }
+
+}
+@media screen and (max-width: 469px) {
+    .TitleHome{
+        font-size: .5rem;
+        color: white;
+        }
+    .Button{
+            font-size:.3rem;
+            }
+
+}

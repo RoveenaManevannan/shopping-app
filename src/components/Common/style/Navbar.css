@@ -1,0 +1,123 @@
+.navbarContainerdiv
+{
+    background-color: #ffdab9;
+    height:150px;
+}
+.navbarWrapperdiv
+{
+    height:60%;
+    padding:0px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*styling for left container of the navbar*/
+.leftdiv{
+   flex:1;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    font-size:50px;
+    color:black;
+    text-decoration:none;
+    font-weight:bolder;
+}
+
+/*styling for right container of the navbar*/
+.rightdiv{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.menuitems a
+{
+    font-size: 40px;
+    cursor:pointer;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    margin-right:50px;
+}
+.MuiSvgIcon-root{
+    width: 1em !important;;
+    height: 1em !important;;
+    font-size: 40px !important;
+}
+
+.addContainer{
+    height: 40%; 
+    background: teal;
+    text-align: center;
+    padding-top:30px;
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+ }
+
+ .cart{
+    cursor:pointer;
+    font-size:40px;
+ }
+
+ .cart span :nth-child(1){
+  
+    color: black;
+ }
+ @media screen and (max-width: 1023px) {
+    .navbarContainerdiv
+    {
+    height:200px;
+    }
+    .addContainer{
+        font-size: 20px;
+        padding-top:20px;
+    }
+    .logo{
+        padding-left:10px;
+        font-size:35px;
+        margin-top: 10px;
+    }
+    .menuitems a
+    {
+        font-size: 25px;
+        margin-right:10px;
+    }
+    .MuiSvgIcon-root{
+        width: 1em !important;;
+        height: 1em !important;;
+        font-size: 15px !important;
+    }
+    .cart{
+        font-size:35px;
+     }
+}
+@media screen and (max-width: 767px) {
+    .navbarContainerdiv
+    {
+    height:100px;
+    }
+    .addContainer{
+        font-size: 13px;
+        padding-top:10px;
+    }
+    .logo{
+        padding-left:10px;
+        font-size:20px;
+        margin-top: 10px;
+    }
+    .menuitems a
+    {
+        font-size: 15px;
+        margin-right:10px;
+    }
+    .MuiSvgIcon-root{
+        width: 1em !important;;
+        height: 1em !important;;
+        font-size: 15px !important;
+    }
+    .cart{
+        font-size:20px;
+     }
+}

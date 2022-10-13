@@ -1,0 +1,93 @@
+.Container{
+background-color: #fff8dc;
+margin-top:0;
+}
+.productTitle{
+padding:10px 20px;
+font-size: 5rem;
+}
+.FilterContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.Filter{
+  margin: 20px;
+}
+.FilterText{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-right:20px;
+}
+.Select{
+border-color:none;
+background-color:#eaecee;
+padding:5px;
+margin-right:20px;
+font-size: 20px;
+height:50px;
+}
+.ProductWrapper{
+    width: 100%;
+}
+.ProductContainer{
+margin: 20px 0px;
+display:grid;
+grid-template-columns: repeat(4,1fr);
+column-gap: 20px;;
+
+}
+.Content{
+    width:90%;
+    height:90%;
+    margin-bottom: 20px;
+}
+.Image{
+    object-fit: fill;
+}
+.Image :hover {
+transition: ease 1s;
+}
+
+@media screen and (max-width: 1023px) {
+    .productTitle{
+        font-size: 3rem;
+        }
+    .FilterContainer{
+         display: flex;
+         justify-content: space-between;
+          }
+    .FilterText{
+        font-size: 2rem;
+    }
+    .Select{
+        margin-right:5px;
+        font-size: 15px;
+        height:30px;
+        }
+    .ProductContainer{
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;;
+            }
+}
+@media screen and (max-width: 767px) {
+    .productTitle{
+        font-size: 1.5rem;
+        }
+    .FilterContainer{
+         display: block;
+         justify-content: space-between;
+          }
+    .FilterText{
+        font-size: 1rem;
+    }
+    .Select{
+        margin-right:5px;
+        font-size: 10px;
+        height:30px;
+        }
+    .ProductContainer{
+            grid-template-columns: 1fr;
+            column-gap: 20px;;
+            }
+
+}
